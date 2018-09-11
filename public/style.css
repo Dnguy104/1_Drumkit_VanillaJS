@@ -1,0 +1,63 @@
+.imgbg {
+	background-image: url("audience-blur-bokeh-976866.jpg");
+	position: fixed; 
+	/* Full height */
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    background-size: cover;
+	z-index: -1;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(255,255,255,0.9);
+	font-size: 50pt;
+	margin-top: 60px;
+}
+
+.drum-kit {
+	display: grid;
+	position: absolute;
+  	top: 40%;
+  	left: 25%;
+	width: 50%;
+	height:70px;
+
+	
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+	text-align: center;
+	
+}
+.keys > p {
+	margin: 0px auto;
+	font-size: 8pt;
+	color: rgb(255, 209, 25);
+}
+
+.keys > h2 {
+	margin: 0px auto;
+	padding-top: 9px;
+	color: rgba(255,255,255,1);
+}
+
+.keys {
+	border-style: solid ;
+	border-width: 2px;
+	border-color: black;
+	background-color: rgba(0,0,0, 0.4);
+	width: 50px;
+	height: 60px;
+	transition: all 0.2s;
+}
+
+.playing {
+	transform: scale(1.1);
+	border-color: rgb(255, 209, 25);
+	box-shadow: 0 0 6px rgb(255, 209, 25);
+	
+}
+
+
