@@ -21,3 +21,7 @@ var keys = document.querySelectorAll('.keys');
 
 keys.forEach(key => key.addEventListener('transitionend', keyEndFunc));
 window.addEventListener('keydown', keyStartFunc);
+window.addEventListener('load', function(){
+	var cover = document.getElementById('cover');
+	cover.style.opacity = '0';
+});

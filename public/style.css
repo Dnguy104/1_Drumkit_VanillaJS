@@ -1,3 +1,15 @@
+#cover {
+	position: fixed; 
+	height: 100%; 
+	width: 100%; 
+	top:0; 
+	left: 0; 
+	background: #000; 
+	z-index:9999;
+	opacity: 1;
+	transition: opacity 0.2s linear;
+}
+
 .imgbg {
 	background-image: url("audience-blur-bokeh-976866.jpg");
 	position: fixed; 
