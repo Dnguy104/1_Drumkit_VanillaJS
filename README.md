@@ -9,4 +9,4 @@ Project 1 of Javascript30
 
 ## Demo
 
-View project demo at []().
+View project demo at [https://dnguy104.github.io/1_Drumkit_VanillaJS/](https://dnguy104.github.io/1_Drumkit_VanillaJS/).
